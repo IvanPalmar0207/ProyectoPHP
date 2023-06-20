@@ -10,7 +10,7 @@
         <aside class='aside'>
             <form class="formulario" action="crearCliente.php" method="post">
                     <h1 class ='title'>Datos Del Cliente</h1>
-                    <input class="input1" type="text" name="id" id="id" placeholder="Ingresa tu Documento" required>
+                    <input class="input1" type="text" name="numeroDocumento" id="numeroDocumento" placeholder="Ingresa tu Documento" required>
 
                     <input class="input1" type="text" name="tipoDoc" id="tipoDoc" placeholder="Ingresa el tipo de documento" required>
 

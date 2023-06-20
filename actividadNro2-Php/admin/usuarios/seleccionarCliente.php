@@ -41,8 +41,8 @@ $resultadoSentecia = mysqli_query($db,$consulta);
                 <td><?php echo $cliente['nombre_per'];?></td>
                 <td><?php echo $cliente['apellido_per'];?></td>
                 <td>
-                    <a class="a2" href="eliminarCliente.php">Eliminar</a>
-                    <a class="a2" href="/admin/usuarios/actualizar.php?id=<?php echo $cliente['numeroDoc_per']?>">Actualizar</a>
+                    <a class="a2" href="eliminarCliente.php?numeroDoc_per=<?php echo $cliente['numeroDoc_per'];?>">Eliminar</a>
+                    <a class="a2" href="actualizarCliente.php?numeroDoc_per=<?php echo $cliente['numeroDoc_per'];?>">Actualizar</a>
                     <?php } ?>
                 </td>
             </tr>
